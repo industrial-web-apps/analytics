@@ -1,15 +1,15 @@
 Package.describe({
-  name: 'okgrow:analytics',
+  name: 'industrialwebapps:analytics',
   version: '3.0.5',
   summary: 'Extends @okgrow/auto-analytics adding automatic user identification for Meteor applications.',
-  git: 'https://github.com/okgrow/analytics',
+  git: 'https://github.com/industrial-web-apps/analytics',
   documentation: 'README.md',
 });
 
 Package.onUse((api) => {
   // NOTE: symlink with example app causes error, upgrade to 1.3.2 or higher
   // to run the examples. https://github.com/meteor/meteor/issues/6665
-  api.versionsFrom('1.3.1');
+  api.versionsFrom('2.3');
 
   // "ecmascript" is mandatory dependency to compile our package's es6 code.
   api.use('ecmascript');

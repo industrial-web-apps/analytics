@@ -8,5 +8,5 @@ es5-shim@4.6.15
 meteor@1.8.0
 modules@0.11.0
 modules-runtime@0.9.0
-okgrow:analytics@3.0.5
+industrialwebapps:analytics@3.0.5
 promise@0.10.0

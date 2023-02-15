@@ -1,5 +1,7 @@
 # Analytics
 
+Why the fork? This fork was created to bump the Meteor version that can be used by this package.
+
 > Complete Google Analytics, Mixpanel, KISSmetrics (and more) integration for Meteor
 
 **NOTE:** This pkg is **no longer being actively maintained**, if you'd like to maintain this pkg please express interest by opening an issue.
@@ -54,7 +56,7 @@ For Meteor Apps older than v1.3.1, please use [v1.0.9](https://github.com/okgrow
 In your [Meteor](https://www.meteor.com) project folder, run:
 
 ```sh
-meteor add okgrow:analytics
+meteor add industrialwebapps:analytics
 ```
 
 ## Usage
